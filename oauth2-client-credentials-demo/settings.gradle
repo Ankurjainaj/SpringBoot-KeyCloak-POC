@@ -1,0 +1,12 @@
+pluginManagement {
+	repositories {
+		maven { url 'https://repo.spring.io/milestone' }
+		maven { url 'https://repo.spring.io/snapshot' }
+		gradlePluginPortal()
+	}
+}
+rootProject.name = 'oauth2-client-credentials-demo'
+include 'microservice-1'
+include 'microservice-2'
+include 'microservice1'
+
